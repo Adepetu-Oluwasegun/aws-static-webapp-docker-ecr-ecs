@@ -74,13 +74,13 @@ http://<ALB-DNS-NAME>.elb.amazonaws.com
 - **Manual**: Adjust **Desired Tasks** in ECS Service  
 - **Auto Scaling**: Configure based on CPU/Memory usage  
 
-## **⚠️ Troubleshooting**
-| Issue | Solution |
-| **Tasks not starting** | Check **CloudWatch Logs** (`/ecs/static-webapp-task`) |
-| **ALB health checks failing** | Verify **security groups** allow HTTP traffic |
-| **No internet in tasks** | Ensure **NAT Gateway** is properly configured |
+## **Troubleshooting**
+| Issue |                                                                Solution |
+| **Tasks not starting** |                                Check **CloudWatch Logs** (`/ecs/static-webapp-task`) |
+| **ALB health checks failing** |                         Verify **security groups** allow HTTP traffic |
+| **No internet in tasks** |                              Ensure **NAT Gateway** is properly configured |
 
-## **🚀 Cleanup (Avoid AWS Charges)**
+## **Cleanup (Avoid AWS Charges)**
 1. **Delete ECS Service**  
 2. **Delete ALB & Target Group**  
 3. **Remove ECR Images (if used)**  
