@@ -10,7 +10,7 @@ This project deploys a **static web application** using:
 
 ## ** Docker Setup**
 The application is containerized using Apache.  
- [View Dockerfile](./Dockerfile)
+ [View Dockerfile](.jupiter-website/Dockerfile)
 
 ### **Build & Push to Docker Hub**
 ```bash
