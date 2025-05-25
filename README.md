@@ -1,6 +1,8 @@
 # aws-static-webapp-docker-ecr-ecs
 Deploy a Static Web App on AWS with Docker, Amazon ECR, and Amazon ECS
 
+![Architecture Diagram](./Architecture-Diagram(1).png)
+
 ## **Project Overview**
 This project deploys a **static web application** using:
 - **Docker** (with Apache HTTP Server)  
