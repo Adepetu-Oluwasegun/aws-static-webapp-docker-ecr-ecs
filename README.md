@@ -77,17 +77,17 @@ http://<ALB-DNS-NAME>.elb.amazonaws.com
 - **Auto Scaling**: Configure based on CPU/Memory usage  
 
 ## **Troubleshooting**
-| Issue |                                                               
+  # Issue                                                               
 **Tasks not starting**
 **ALB health checks failing**
 **No internet in tasks**
 
-Solution |
+# Solution 
 Check **CloudWatch Logs** (`/ecs/static-webapp-task`) |
 Verify **security groups** allow HTTP traffic |
 Ensure **NAT Gateway** is properly configured |
 
-## **Cleanup (Avoid AWS Charges)**
+## **Cleanup to avoid AWS charges**
 1. **Delete ECS Service**  
 2. **Delete ALB & Target Group**  
 3. **Remove ECR Images (if used)**  
